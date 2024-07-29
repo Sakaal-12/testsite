@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="https://learningtoday.net/wp-content/themes/learning-today/assets/vendor/swiper/css/swiper-bundle.min.css?ver=1706589651">
+        <link rel="stylesheet" type="text/css" href="https://learningtoday.net/wp-content/themes/learning-today/assets/vendor/bootstrap/css/bootstrap.min.css?ver=1706589651">
+        <link rel="stylesheet" type="text/css" href="https://learningtoday.net/wp-content/themes/learning-today/assets/css/style.css?ver=1721037756">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+    <body>
+        <section id="topbar" class="fixed-top">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="contact-info d-flex anchor-color">
+                    <a href="mailto:info.learningtoday.net@gmail.com" class="text-white text-decoration-none"><i class="fa-regular fa-envelope-open me-2"></i>info.learningtoday.net@gmail.com</a>
+                </div>
+                <div class="social-links d-md-inline-block d-none">
+                    <ul class="ps-0 mb-0">
+                        <li>
+                            <a href="https://www.facebook.com/learningtodayOfficial/">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 15 24" width="15" height="15">
+                                    <path d="M3.75 14.03V24h5.438v-9.97h4.055l.844-4.584H9.188V7.824c0-2.423.952-3.352 3.408-3.352.764 0 1.378.019 1.734.056V.37C13.659.188 12.019 0 11.072 0 6.061 0 3.75 2.367 3.75 7.472v1.973H.656v4.584z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/learningtoday/">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 14 16" width="15" height="15">
+                                    <path d="M3.135 14H.231V4.653h2.903zM1.681 3.379A1.695 1.695 0 0 1 0 1.681a1.681 1.681 0 0 1 3.362 0c0 .929-.754 1.696-1.681 1.696M13.997 14H11.1V9.45c0-1.084-.022-2.475-1.51-2.475-1.51 0-1.741 1.178-1.741 2.396V14h-2.9V4.653h2.785v1.275h.041c.387-.734 1.335-1.51 2.746-1.51 2.938 0 3.478 1.934 3.478 4.447V14z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/learningtodayofficial/">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 15 17.143" width="15" height="15">
+                                    <path d="M7.503 4.721c-2.129 0-3.847 1.718-3.847 3.847s1.718 3.847 3.847 3.847 3.847-1.717 3.847-3.847-1.717-3.847-3.847-3.847m0 6.348c-1.376 0-2.501-1.122-2.501-2.501s1.122-2.501 2.501-2.501 2.501 1.122 2.501 2.501-1.125 2.501-2.501 2.501m4.902-6.506a.895.895 0 0 1-.897.897.898.898 0 1 1 .897-.897m2.548.911c-.057-1.202-.331-2.267-1.212-3.144-.877-.877-1.942-1.152-3.144-1.212-1.239-.07-4.952-.07-6.191 0-1.199.057-2.263.331-3.144 1.209S.11 4.269.05 5.471c-.07 1.239-.07 4.952 0 6.191.057 1.202.331 2.267 1.212 3.144s1.942 1.152 3.144 1.212c1.239.07 4.952.07 6.191 0 1.202-.057 2.267-.331 3.144-1.212.877-.877 1.152-1.942 1.212-3.144.07-1.239.07-4.949 0-6.188m-1.6 7.517a2.53 2.53 0 0 1-1.426 1.426c-.988.392-3.331.301-4.423.301s-3.439.087-4.423-.301a2.53 2.53 0 0 1-1.426-1.426c-.392-.988-.301-3.331-.301-4.423s-.087-3.439.301-4.423a2.53 2.53 0 0 1 1.426-1.426c.988-.392 3.331-.301 4.423-.301s3.439-.087 4.423.301a2.53 2.53 0 0 1 1.426 1.426c.392.988.301 3.331.301 4.423s.09 3.439-.301 4.423"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.pinterest.com/learningtodaynet/">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 15 20" width="15" height="15">
+                                    <path d="M7.969.254C3.961.254 0 2.926 0 7.25c0 2.75 1.547 4.313 2.484 4.313.387 0 .609-1.078.609-1.383 0-.363-.926-1.137-.926-2.648 0-3.141 2.391-5.367 5.484-5.367 2.66 0 4.629 1.512 4.629 4.289 0 2.074-.832 5.965-3.527 5.965-.973 0-1.805-.703-1.805-1.711 0-1.477 1.031-2.906 1.031-4.43 0-2.586-3.668-2.117-3.668 1.008 0 .656.082 1.383.375 1.98-.539 2.32-1.641 5.777-1.641 8.168 0 .738.105 1.465.176 2.203.133.148.066.133.27.059 1.969-2.695 1.898-3.223 2.789-6.75.48.914 1.723 1.406 2.707 1.406 4.148 0 6.012-4.043 6.012-7.688C15 2.785 11.648.254 7.969.254"></path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <nav class="navbar navbar-default navbar-expand-lg fixed-top  bg-body-tertiary py-2 pt-5 pb-lg-0 pb-3">
+            <div class="container">
+                <a href="https://learningtoday.net/" class="navbar-brand me-auto me-lg-none" rel="home" aria-current="page"><img width="159" height="49" src="https://learningtoday.net/wp-content/uploads/2023/03/logo.png" class="custom-logo" alt="Empowering Education with Learning Today's Innovative Strategies" decoding="async"></a><button class="navbar-toggler me-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="search ms-lg-5 me-2 order-md-last">
+                    <a href="javacript:void(0)" class="openBtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none">
+                            <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            </path>
+                            <path d="M21 21L16.65 16.65" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul id="menu-primary" class="navbar-nav ms-auto">
+                        <li id="menu-item-5468" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5468 me-3"><a href="https://learningtoday.net/category/edtech/" class="nav-link">EdTech</a></li>
+                        <li id="menu-item-5470" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5470 me-3"><a href="https://learningtoday.net/category/ebooks/" class="nav-link">Ebooks</a></li>
+                        <li id="menu-item-5471" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5471 me-3"><a href="https://learningtoday.net/category/online-courses/" class="nav-link">Online Courses</a></li>
+                        <li id="menu-item-5477" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5477 me-3"><a href="https://learningtoday.net/category/career-advice/" class="nav-link">Career Advice</a></li>
+                        <li id="menu-item-5821" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5821 me-3"><a href="https://learningtoday.net/category/resources/" class="nav-link">Resources</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="mob-search">
+            <div id="myOverlay" class="overlay">
+                <span class="closebtn" title="Close Overlay">×</span>
+                <div class="overlay-content">
+                    <form role="search" method="get" action="https://learningtoday.net/">
+                        <input type="text" id="search" placeholder="Enter Keywords..." value="" name="s" title="Search for:" required="">
+                        <button type="submit">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15" width="15" height="15">
+                                <path d="M12.188 6.094a6.1 6.1 0 0 1-1.172 3.595l3.709 3.712a.94.94 0 0 1-1.327 1.327l-3.71-3.712A6.093 6.093 0 0 1 0 6.094a6.094 6.094 0 1 1 12.188 0m-6.094 4.219a4.219 4.219 0 1 0 0-8.438 4.219 4.219 0 1 0 0 8.438"></path>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- hader section ends -->
+        <main>
+            <div class="hero-sec-new">
+                <div class="container">
+                    <div class="row row-gap justify-content-center">
+                        <div class="col-lg-10">
+                            <div class="sec-items text-center">
+                                <div class="fs-6 fw-bold mb-0">Solutions</div>
+                                <div class="fw-bold hero-title-new">Empower Your Educational Journey</div>
+                                <p class="mb-0">Build a smarter organization with a training platform designed to help great teams grow. At <strong>Learning Today</strong>, we understand that the key to organizational success lies in continuous learning and development.</p>
+                                <a href="#" class="btn btn-primary mt-2">Book Demo 
+                                <svg width="25" height="9.211" viewBox="0 0 25 9.211" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#a)" stroke-miterlimit="10"><path d="m19.868.658 3.947 3.947-3.947 4.079M.263 4.605h23.553"></path></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h24.868v9.211H0z"></path></clipPath></defs></svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 text-center">
+                            <img src="https://learningtoday.net/wp-content/uploads/2024/07/Em-ower-Your-Educational.webp" class="img-fluid mt-2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- hero section ends -->
+            <div class="container rtlSpace">
+                <div class="row row-gap align-items-center">
+                    <div class="col-lg-6">
+                        <div class="h2 fw-bold">Emphasize Learning and Development</div>
+                        <p class="mb-0">Our software lets you turn your internal experts into L&D collaborators using AI and collaborative features so you can quickly and continually upskill from within your organization.</p>
+                    </div>
+                    <div class="col-lg-6 text-md-center">
+                        <img src="https://learningtoday.net/wp-content/uploads/2024/07/Emphasize-Learning.webp" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <!-- section 1 ends -->
+            <div class="container mt-5">
+                <div class="row row-gap align-items-center">
+                    <div class="col-lg-5 text-center order-lg-1 order-2">
+                        <img src="https://learningtoday.net/wp-content/uploads/2024/07/Dont-Miss-Out-on-Growth.webp" class="img-fluid">
+                    </div>
+                    <div class="col-lg-7 order-lg-2 order-1">
+                        <div class="h2 fw-bold">Don’t Miss Out on Growth Opportunities</div>
+                        <p class="mb-0">Encourage peer-to-peer learning through collaborative projects and interactive assignments. Monitor the progress and performance with detailed analytics and reporting tools and identify the scope of growth and improvement.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- section 2 ends -->
+            <div class="container mt-5">
+                <div class="row row-gap align-items-center">
+                    <div class="col-lg-7">
+                        <div class="h2 fw-bold">Flexible Learning Solution</div>
+                        <p class="mb-0">Our platform is optimized for multiple devices, ensuring that learning can happen on the go. This helps you to provide your team with the flexibility to learn on their own schedule, from any device at their own pace.</p>
+                    </div>
+                    <div class="col-lg-5 text-center">
+                        <img src="https://learningtoday.net/wp-content/uploads/2024/07/Flexible-Learning-Solution.webp" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <!-- section 3 ends -->
+            <div class="testimonial-bg-new py-5 mt-4">
+                <div class="container">
+                    <div class="h2 fw-bold text-center mb-5">Testimonials</div>
+                    <div class="mt-5">
+                        <div class="swiper feedback">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="clients-card">
+                                        <div class="message">
+                                            <p class="mb-0">“I love how my employees can learn at their own pace and allow me to track their progress. <strong>Learning Today</strong> makes learning so much fun!”</p>
+                                        </div>
+                                        <div class="clients-name">
+                                            <img src="https://craftohtml.themezaa.com/images/avtar-28.jpg" class="img-fluid">
+                                            <div class="details-name">
+                                                <div>David Statham</div>
+                                                <span>Chief financial</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="clients-card">
+                                        <div class="message">
+                                            <p class="mb-0">“<strong>Learning Today</strong> has transformed our training approach. Our team is more skilled and motivated than ever.”</p>
+                                        </div>
+                                        <div class="clients-name">
+                                            <img src="https://craftohtml.themezaa.com/images/avtar-28.jpg" class="img-fluid">
+                                            <div class="details-name">
+                                                <div>Jessica Abigail</div>
+                                                <span>Chief financial</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="clients-card">
+                                        <div class="message">
+                                            <p class="mb-0">“Its user-friendly interface allows me to keep track of all the progress under one dashboard. This software has been revolutionary for me and my trainees.”</p>
+                                        </div>
+                                        <div class="clients-name">
+                                            <img src="https://craftohtml.themezaa.com/images/avtar-28.jpg" class="img-fluid">
+                                            <div class="details-name">
+                                                <div>Tom Morgan</div>
+                                                <span>Chief financial</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="clients-card">
+                                        <div class="message">
+                                            <p class="mb-0">“Since implementing Learning Today, we’ve seen a noticeable improvement in our team’s performance. The interactive forums and live sessions have enhanced collaboration and communication among our employees.”</p>
+                                        </div>
+                                        <div class="clients-name">
+                                            <img src="https://craftohtml.themezaa.com/images/avtar-28.jpg" class="img-fluid">
+                                            <div class="details-name">
+                                                <div>Emily Starc</div>
+                                                <span>Chief financial</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- slider section ends -->
+            <div class="rtlSpace dark-bg py-5">
+                <div class="container">
+                    <div class="h2 fw-bold text-center text-white">Flexible Learning Solution</div>
+                    <p class="mb-5 text-center text-white">Deliver the same great training experience for any scenario and every team – whether they’re your employees, customers, or partners.</p>
+                    <div class="row row-gap">
+                        <div class="col-lg-3 col-md-6 d-flex">
+                            <div class="solution-cards">
+                                <div class="colution-icons">
+                                    <img src="https://radarro.com/wp-content/uploads/2024/07/Excellent-Customer-Support.svg">
+                                </div>
+                                <div class="h5 mb-0 fw-bold">Customer Training</div>
+                                <p class="mb-0">Enhance your customer experience by providing the necessary guidance to maximize the value of your products and services.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 d-flex">
+                            <div class="solution-cards">
+                                <div class="colution-icons">
+                                    <img src="https://radarro.com/wp-content/uploads/2024/07/Excellent-Customer-Support.svg">
+                                </div>
+                                <div class="h5 mb-0 fw-bold">Sales Training</div>
+                                <p class="mb-0">Boost your sales team’s performance with targeted training programs. Equip your sales force with the knowledge and skills they need to succeed, from product expertise to sales techniques.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 d-flex">
+                            <div class="solution-cards">
+                                <div class="colution-icons">
+                                    <img src="https://radarro.com/wp-content/uploads/2024/07/Excellent-Customer-Support.svg">
+                                </div>
+                                <div class="h5 mb-0 fw-bold">Employee Training</div>
+                                <p class="mb-0">Empower your employees with comprehensive training modules designed to enhance skills, improve performance, and foster continuous learning.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 d-flex">
+                            <div class="solution-cards">
+                                <div class="colution-icons">
+                                    <img src="https://radarro.com/wp-content/uploads/2024/07/Excellent-Customer-Support.svg">
+                                </div>
+                                <div class="h5 mb-0 fw-bold">Onboard Training</div>
+                                <p class="mb-0">Welcome your new hires online with <strong>Learning Today</strong>. Streamline the onboarding process and ensure your new employees feel supported and confident from day one.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- cards section ends -->
+            <div class="container mt-4">
+                <div class="row row-gap align-items-center">
+                    <div class="col-lg-7">
+                        <div class="h2 fw-bold">Our Dedicated Approach to Safeguard and provide Data Security Assurance</div>
+                        <ul class="listSpace">
+                            <li>Our DPO is dedicated to ensuring that we adhere to the laws safeguarding personal data, starting with the GDPR and the recommendations set out by the European authorities.</li>
+                            <li>Our platform satisfies the most stringent worldwide requirements for data protection and management, having earned ISO 27001 certification.</li>
+                            <li>We implement strict access control measures to ensure that only authorized personnel can access sensitive information.</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-5 text-md-center">
+                        <img src="https://learningtoday.net/wp-content/uploads/2024/07/unnamed.jpg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <!-- list section ends -->
+            <div class="testimonial-bg-new mt-5 py-5">
+                <div class="container">
+                    <div class="row row-gap align-items-center">
+                        <div class="col-lg-6">
+                            <div class="h2 fw-bold">Get Started</div>
+                            <p class="mb-0">Ready to revolutionize your learning experience? Sign up today and explore the endless possibilities with <strong>Learning Today</strong>. Together, let’s create a brighter future through education.</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="h2 fw-bold">Contact Us</div>
+                            <p class="mb-0">Have questions or need assistance? Our support team is here to help. Reach out to us at <a href="mailto:support@learningtoday.com">support@learningtoday.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- footer section starts -->
+        <footer class="footer-bg pt-5 pb-3">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-12">
+                        <div class="row newsletter-sec px-lg-5">
+                            <div class="col-lg-6 text-white  d-flex align-items-center">
+                                <div class="envelope-icon">
+                                    <img src="https://learningtoday.net/wp-content/uploads/2023/06/envelope-icon.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="subscribe-tag-line ms-4">
+                                    <div class="fs-4 fw-bold"> Subscribe for Newsletter</div>
+                                    <p class="m-0">Manage Your Business With Our Software</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 d-flex align-items-center mt-lg-0 mt-md-3">
+                                <form action="" class="w-100">
+                                    <div class="input-group subscribe">
+                                        <input type="email" class="form-control" placeholder="Enter your email..." required="">
+                                        <div class="input-group-append">
+                                            <input type="submit" class="btn subscribe-btn ms-lg-3" value="Subscribe Now !">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="foot-1">
+                            <span class="text-white fs-5 fw-semibold">About Us</span>
+                            <div class="foot-sep"></div>
+                            <p class="text-white mt-4 mb-3">
+                                We only provide rightful suggestions for the courses that will meet the student’s requirements and needs, we do not directly provide the courses in any case.
+                            </p>
+                            <div class="top-social-icon2">
+                                <ul class="ps-0 mb-0">
+                                    <li>
+                                        <a href="https://www.facebook.com/learningtodayOfficial/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 15 24" width="15" height="15">
+                                                <path d="M3.75 14.03V24h5.438v-9.97h4.055l.844-4.584H9.188V7.824c0-2.423.952-3.352 3.408-3.352.764 0 1.378.019 1.734.056V.37C13.659.188 12.019 0 11.072 0 6.061 0 3.75 2.367 3.75 7.472v1.973H.656v4.584z"></path>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/company/learningtoday/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 14 16" width="15" height="15">
+                                                <path d="M3.135 14H.231V4.653h2.903zM1.681 3.379A1.695 1.695 0 0 1 0 1.681a1.681 1.681 0 0 1 3.362 0c0 .929-.754 1.696-1.681 1.696M13.997 14H11.1V9.45c0-1.084-.022-2.475-1.51-2.475-1.51 0-1.741 1.178-1.741 2.396V14h-2.9V4.653h2.785v1.275h.041c.387-.734 1.335-1.51 2.746-1.51 2.938 0 3.478 1.934 3.478 4.447V14z"></path>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/learningtodayofficial/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 15 17.143" width="15" height="15">
+                                                <path d="M7.503 4.721c-2.129 0-3.847 1.718-3.847 3.847s1.718 3.847 3.847 3.847 3.847-1.717 3.847-3.847-1.717-3.847-3.847-3.847m0 6.348c-1.376 0-2.501-1.122-2.501-2.501s1.122-2.501 2.501-2.501 2.501 1.122 2.501 2.501-1.125 2.501-2.501 2.501m4.902-6.506a.895.895 0 0 1-.897.897.898.898 0 1 1 .897-.897m2.548.911c-.057-1.202-.331-2.267-1.212-3.144-.877-.877-1.942-1.152-3.144-1.212-1.239-.07-4.952-.07-6.191 0-1.199.057-2.263.331-3.144 1.209S.11 4.269.05 5.471c-.07 1.239-.07 4.952 0 6.191.057 1.202.331 2.267 1.212 3.144s1.942 1.152 3.144 1.212c1.239.07 4.952.07 6.191 0 1.202-.057 2.267-.331 3.144-1.212.877-.877 1.152-1.942 1.212-3.144.07-1.239.07-4.949 0-6.188m-1.6 7.517a2.53 2.53 0 0 1-1.426 1.426c-.988.392-3.331.301-4.423.301s-3.439.087-4.423-.301a2.53 2.53 0 0 1-1.426-1.426c-.392-.988-.301-3.331-.301-4.423s-.087-3.439.301-4.423a2.53 2.53 0 0 1 1.426-1.426c.988-.392 3.331-.301 4.423-.301s3.439-.087 4.423.301a2.53 2.53 0 0 1 1.426 1.426c.392.988.301 3.331.301 4.423s.09 3.439-.301 4.423"></path>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.pinterest.com/learningtodaynet/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 15 20" width="15" height="15">
+                                                <path d="M7.969.254C3.961.254 0 2.926 0 7.25c0 2.75 1.547 4.313 2.484 4.313.387 0 .609-1.078.609-1.383 0-.363-.926-1.137-.926-2.648 0-3.141 2.391-5.367 5.484-5.367 2.66 0 4.629 1.512 4.629 4.289 0 2.074-.832 5.965-3.527 5.965-.973 0-1.805-.703-1.805-1.711 0-1.477 1.031-2.906 1.031-4.43 0-2.586-3.668-2.117-3.668 1.008 0 .656.082 1.383.375 1.98-.539 2.32-1.641 5.777-1.641 8.168 0 .738.105 1.465.176 2.203.133.148.066.133.27.059 1.969-2.695 1.898-3.223 2.789-6.75.48.914 1.723 1.406 2.707 1.406 4.148 0 6.012-4.043 6.012-7.688C15 2.785 11.648.254 7.969.254"></path>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <div class="foot-menu foot-head">
+                            <span class="text-white fs-5 fw-semibold">Main Link</span>
+                            <div class="foot-sep"></div>
+                            <div class="menu-main_links-container">
+                                <ul id="menu-main_links" class="menu">
+                                    <li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14"><a href="https://learningtoday.net/about-us/">About Us</a></li>
+                                    <li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13"><a href="https://learningtoday.net/contact-us/">Contact Us</a></li>
+                                    <li id="menu-item-2723" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-2723"><a rel="privacy-policy" href="https://learningtoday.net/privacy-policy/">Privacy Policy</a></li>
+                                    <li id="menu-item-3502" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3502"><a href="https://learningtoday.net/essay-generator/">Essay Generator</a></li>
+                                    <li id="menu-item-3995" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3995"><a href="https://learningtoday.net/courses/">Courses</a></li>
+                                    <li id="menu-item-5211" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5211"><a href="https://learningtoday.net/authors/">Authors</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <div class="foot-menu foot-head">
+                            <span class="text-white fs-5 fw-semibold">Category</span>
+                            <div class="foot-sep"></div>
+                            <div class="menu-category_links-container">
+                                <ul id="menu-category_links" class="menu">
+                                    <li id="menu-item-5822" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5822"><a href="https://learningtoday.net/category/writing/">Writing</a></li>
+                                    <li id="menu-item-5823" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5823"><a href="https://learningtoday.net/category/career-advice/">Career Advice</a></li>
+                                    <li id="menu-item-5824" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5824"><a href="https://learningtoday.net/category/ebooks/">Ebooks</a></li>
+                                    <li id="menu-item-5825" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5825"><a href="https://learningtoday.net/category/resources/">Resources</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="foot-menu foot-head">
+                            <span class="text-white fs-5 fw-semibold">Latest Posts</span>
+                            <div class="foot-sep"></div>
+                            <div class="latest-post">
+                                <div class="row mb-3">
+                                    <div class="col-4">
+                                        <div class="swip-img ank-img-placeholder">
+                                        </div>
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="latest-post-h">
+                                            <a href="https://learningtoday.net/top-digital-marketing-programs/" class="text-white text-decoration-none">
+                                            Acquiring Skills: Top Digital Marketing Programs to Look For…                      </a>
+                                            <p class="latest-post-dt text-secondary mb-0">July 22, 2024</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-4">
+                                        <div class="swip-img ank-img-placeholder">
+                                        </div>
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="latest-post-h">
+                                            <a href="https://learningtoday.net/how-long-is-a-semester/" class="text-white text-decoration-none">
+                                            How Long is a Semester in College Across the…                      </a>
+                                            <p class="latest-post-dt text-secondary mb-0">July 22, 2024</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-lg-9">
+                        <p class="disclaimer-text text-white">
+                            <strong>Disclaimer :</strong> It is to make sure and comprehend with no doubt that we are only here to provide suggestions to our avid
+                            learners. We do not provide the course or programs directly, we have tied up with universities and agencies,
+                            and the ones that match our students' potential and requirements are the ones that are presented to them on
+                            the behalf of the course providers, we don’t provide the courses directly in any case.
+                        </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="https://www.trustpilot.com/review/learningtoday.net" target="_blank">
+                        <img src="https://learningtoday.net/wp-content/uploads/2024/05/learningtoday-trustpilot.webp" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <hr class="text-white">
+                <div class="copywrite text-white text-center">
+                    Copyright © 2024 All Rights Reserved.
+                </div>
+            </div>
+        </footer>
+        <!-- swiper js -->
+        <script src="https://learningtoday.net/wp-content/themes/learning-today/assets/vendor/swiper/js/swiper-bundle.min.js?ver=1706589651"></script>
+        <script>
+            var swiper = new Swiper(".feedback", {
+                loop: true,
+                slidesPerView: 3,
+                speed: 3000,
+                autoplay: {
+                    delay: 2000,
+                    disableOnInteraction: false,
+                },
+                breakpoints: {
+                    360: {
+                      slidesPerView: 1,
+                      spaceBetween: 20,
+                    },
+                    768: {
+                      slidesPerView: 2,
+                      spaceBetween: 20,
+                    },
+                    1023: {
+                      slidesPerView: 3,
+                      spaceBetween: 20,
+                    },
+                },
+            });
+        </script>
+    </body>
+</html>

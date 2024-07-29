@@ -1,0 +1,196 @@
+/*------------- solution page css starts ---------------*/
+.sec-items{
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	align-items: center;
+}
+
+.solution-cards {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	background: #fff;
+	padding: 30px;
+	border-radius: 5px;
+}
+
+.colution-icons {
+	background: #fff;
+	box-shadow: 0 1px 8px 1px rgba(0, 0, 0, .11);
+	width: 70px;
+	height: 70px;
+	display: grid;
+	place-items: center;
+	border-radius: 50%;
+	margin-bottom: 5px;
+}
+
+.clients-name {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	padding-left: 18px;
+}
+
+.clients-name img {
+	height: 70px;
+	border-radius: 50%;
+	filter: blur(2px);
+}
+
+.details-name div {
+	color: #262b35;
+	font-weight: 500;
+}
+
+.details-name span {
+	color: #868d98;
+	font-size: 14px;
+}
+
+.message {
+	background: #fff;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, .08);
+	padding: 20px 30px;
+	position: relative;
+	border-radius: 5px;
+	height: 223px;
+}
+
+.clients-card {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	align-items: start;
+}
+
+.message::after {
+	content: "";
+	top: 100%;
+	left: 50px;
+	height: 0;
+	width: 0;
+	z-index: 9;
+	margin-left: -14px;
+	position: absolute;
+	pointer-events: none;
+	border: solid transparent;
+	border-width: 14px;
+	border-top-color: #fff;
+}
+
+.testimonial-bg-new {
+	background: linear-gradient(to top, #f0f4fd, rgba(255, 255, 255, 0));
+}
+
+.testimonial-bg-new .swiper-slide {
+	background: none;
+	box-shadow: none;
+	color: #707070;
+}
+
+.feedback {
+	height: fit-content;
+	width: 100%;
+}
+
+.rtlSpace {
+	margin-top: 70px;
+}
+
+.gb-bg {
+	background: #ffe0da;
+}
+
+.dark-bg {
+	background: #032e3f;
+}
+
+.hero-sec-new {
+	background: #d8e4fd;
+	padding-top: 135px;
+	margin-bottom: 100px;
+}
+
+.hero-sec-new .col-lg-12 img{
+	margin-bottom: -75px;
+}
+
+.hero-title-new{
+	font-size: 35px;
+	line-height: 1.2;
+}
+
+.btn-primary svg {
+	stroke: #fff;
+	margin-left: 5px;
+	transition: all 0.4s;
+}
+
+.btn-primary:hover svg {
+	stroke: #000;
+}
+
+.listSpace {
+	display: flex;
+	align-items: start;
+	gap: 10px;
+	flex-direction: column;
+	margin-top: 30px;
+	padding-left: 20px;
+	margin-bottom: 0;
+}
+
+.listSpace li {
+	line-height: 1.6;
+}
+
+@media screen and (max-width:1023px) {
+	.rtlSpace {
+		margin-top: 40px;
+	}
+
+	.hero-sec-new{
+		margin-bottom: 130px;
+	}
+
+	.hero-title-new{
+		font-size: 30px;
+	}
+
+	.message{
+		height: 280px;
+	}
+}
+
+@media screen and (max-width:600px){
+	.hero-title-new{
+		font-size: 24px;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+	.message{
+		height: 310px;
+	}
+}
+/*------------- solution page css ends ---------------*/
+
+
+
+
+/*------------- feature page css starts ---------------*/
+.listGap {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	align-items: start;
+}
+
+.float-cards{
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+/*------------- feature page css ends ---------------*/
